@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(146, 82, 82);
+}
+#header-el{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#tittle-el h1{
+  margin-top: 2rem;
+  color: white;
+}
+.fa-solid{
+  padding: 1px 5px;
+  color: white;
+  background: rgb(134, 5, 5);
+  
+}
+#main-el{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-div{
+  position: relative;
+}
+#main-el img{
+  width: 10rem;
+}
+#main-el h3{
+  color: white;
+}
+#btn-el{
+  background: rgb(121, 3, 3);
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 3px;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0rem;
+}
+#btn-el:hover{
+  color: aqua;
+  opacity: 0.7;
+  transition: all 1s linear;
+  cursor: grab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
